@@ -82,7 +82,7 @@ const App = () => {
       students.filter((student) => student.id !== id)
     );
   };
-
+  
   const totalStudents = students.length;
 
   const averageScore =
