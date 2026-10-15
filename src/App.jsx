@@ -31,7 +31,6 @@ const App = () => {
   const [studentClass, setStudentClass] = useState("");
   const [error, setError] = useState("");
 
-  // Lọc sinh viên
   const filteredStudents = students.filter((student) => {
     if (filter === "good") {
       return student.score >= 8;
@@ -44,7 +43,6 @@ const App = () => {
     return true;
   });
 
-  // Thêm sinh viên
   const handleAddStudent = (event) => {
     event.preventDefault();
 
@@ -79,14 +77,12 @@ const App = () => {
     setError("");
   };
 
-  // Xóa sinh viên
   const handleDeleteStudent = (id) => {
     setStudents(
       students.filter((student) => student.id !== id)
     );
   };
 
-  // Thống kê
   const totalStudents = students.length;
 
   const averageScore =
