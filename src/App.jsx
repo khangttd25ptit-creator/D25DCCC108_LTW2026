@@ -25,7 +25,6 @@ const App = () => {
   ]);
 
   const [filter, setFilter] = useState("all");
-
   const [name, setName] = useState("");
   const [score, setScore] = useState("");
   const [studentClass, setStudentClass] = useState("");
