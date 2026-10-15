@@ -18,7 +18,7 @@ const App = () => {
     },
     {
       id: 3,
-      name: "Nguyễn Văn B",
+      name: "Nguyễn Văn C",
       score: 4.5,
       class: "D25DCC01",
     },
