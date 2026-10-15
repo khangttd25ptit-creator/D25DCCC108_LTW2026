@@ -7,7 +7,7 @@ const App = () => {
     {
       id: 1,
       name: "Nguyễn Văn A",
-      score: 8.5,
+      score: 9,
       class: "D25DCC01",
     },
     {
